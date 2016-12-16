@@ -1,0 +1,14 @@
+{
+  "name": "DeviceOrientation",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "^0.34.0",
+    "react-native-orientation": "git+https://github.com/yamill/react-native-orientation",
+    "react-native-vector-icons": "^2.1.0"
+  }
+}

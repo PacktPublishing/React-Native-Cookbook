@@ -1,0 +1,3 @@
+rootProject.name = 'WebSockets'
+
+include ':app'

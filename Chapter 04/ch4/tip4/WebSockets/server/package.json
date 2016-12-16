@@ -1,0 +1,15 @@
+{
+  "name": "chat-server",
+  "version": "0.0.1",
+  "description": "Simple chat server example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Crysfel Villa",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^1.1.1"
+  }
+}

@@ -1,0 +1,3 @@
+export {
+  loadCategories,
+} from './actions';

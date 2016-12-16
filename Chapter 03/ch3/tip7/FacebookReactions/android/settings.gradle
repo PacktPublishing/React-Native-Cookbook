@@ -1,0 +1,3 @@
+rootProject.name = 'FacebookReactions'
+
+include ':app'

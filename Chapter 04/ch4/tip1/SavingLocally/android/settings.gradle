@@ -1,0 +1,3 @@
+rootProject.name = 'SavingLocally'
+
+include ':app'

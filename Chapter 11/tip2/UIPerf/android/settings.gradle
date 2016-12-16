@@ -1,0 +1,3 @@
+rootProject.name = 'UIPerf'
+
+include ':app'

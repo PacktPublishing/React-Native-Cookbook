@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E304FDF6B4E2BEE98B1CB376B1C499 /* feedbackActivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEF2A56E4DE2857B3C971F44AA1DA18 /* feedbackActivity@3x.png */; };
+		0A02F4EB0DBBC92B221459C91C2E368E /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D1902437AD4E424F9F1043A3AB96D25D /* es.lproj */; };
+		0BB42B52BB3CFAB9691D32A88715AF8A /* iconCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA9D152C366134D5BAE09BC04833CF /* iconCamera@2x.png */; };
+		10C02C1DF5EB1C46F47C934647FE160D /* Rectangle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A781D4FFF38FAE8A3ED68530E1500EF /* Rectangle@2x.png */; };
+		16123269223B014A45DF85A400D846F9 /* Cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = E58F047E9D810178B8B7A1C7CA6E4791 /* Cancel.png */; };
+		1CD43A7A40813BD66639A86BC34ECBB5 /* feedbackActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA3EEEF8F41D162D5C2AE7A65A99223 /* feedbackActivity.png */; };
+		26035D03DD35459CE5EC042B76947A9C /* authorize_denied@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43710CE97DE019A14896841889757328 /* authorize_denied@2x.png */; };
+		280DA857779FC1D5A702C2B980A8E725 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 02D71051FE8503F354355EDD70B245DA /* ja.lproj */; };
+		2DCDFB8DE25721AEF30490982AD3DD42 /* buttonRoundedRegular.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FD25F15E6707B8F468205E1E75FE23 /* buttonRoundedRegular.png */; };
+		4534CD22129787E011DB2FD9E8021DEC /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 398CE94EA93743C77D964884EABDDB89 /* en.lproj */; };
+		48824B3684D2DCB8076D47C04F09D832 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0D55C2C7E0A4BA3D6EAE94488A3C78E6 /* hu.lproj */; };
+		495430AB5D7B4CF306379A6CA860741D /* Ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A379CE9FC9B4775C6655F839DEC29B /* Ok.png */; };
+		495B48D48381E16798D0452B41EB8354 /* Pods-TestDeployAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FABE63A470EB406BCDB0591E4D9C14 /* Pods-TestDeployAppTests-dummy.m */; };
+		5760BD3BAD665071AE5A87E39C4D434F /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C48D059E239F7A920493C2A0A839F27 /* Arrow.png */; };
+		63645274736672804EC7714131E97457 /* buttonRoundedRegularHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A8080BEF759DE59E875A706AD1A23B0 /* buttonRoundedRegularHighlighted@2x.png */; };
+		6C36B05536BFF389ACABAF7AE815E255 /* Pods-TestDeployApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8212F8DC7C9E3728BB155EEDF3F4132F /* Pods-TestDeployApp-dummy.m */; };
+		6F17E89B8BBC7D1290534E82A81E5212 /* Rectangle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 345DA352C0FBD01C82825C7DE36A1264 /* Rectangle@3x.png */; };
+		74B3B310C2671D132AF6E0A9E01BEA12 /* Ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8B52E4154195989F3CE6BBDDC00BCC /* Ok@2x.png */; };
+		776EACDC46D04A74BE8D52C2E82C15D5 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7D66982C1DDE85448AE7E43AFEA53ECB /* pt.lproj */; };
+		77C3E84E939AB3190902B0B7681E1004 /* pt-PT.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8D6409A53E60295A72AAB0512851287B /* pt-PT.lproj */; };
+		7CFB3ADE367D2692775C304F8709CCC2 /* hr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 980A5316F5F596B0F25E71DCB26B2DAF /* hr.lproj */; };
+		85FF21BD92EEA12FABF49B5FB6166994 /* Blur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D8B118232BA6300C76BBCF7E278F1B /* Blur@2x.png */; };
+		8671C06E950B370C16B3E73CC1E3F16C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		8AE6C60F51AF9DEDFD73B95200C94D4B /* buttonRoundedRegular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C458E84759202CD46C52B688F46DF19 /* buttonRoundedRegular@2x.png */; };
+		8ED0654955869D7CD0501B5220685FF8 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 95DA580AD5EF0D30E568BCFC24B420C8 /* fr.lproj */; };
+		91B611F8E5BB709FBE11A2D05598665C /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4684046B08D3CC6A178612FC086F75B3 /* Rectangle.png */; };
+		92B4E2D869F56238AF50BB00B3F643B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		98A0252E126739B2C842686F7F9B17F1 /* Blur@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EE603590241B2DC6C61AF4786EAF36 /* Blur@3x.png */; };
+		98A50D63C57EF1721AB05F78E35471F3 /* Ok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A7DFEB18E685A4BF73FBF6F80EA2DC /* Ok@3x.png */; };
+		99F243DB52C2CBE3BB823A1D5146B119 /* IconGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A07D1E612D455701A8EDC8F4CF10194 /* IconGradient.png */; };
+		9B45C853EE8CFFC1B24721A6D58ECAE8 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CC9E14C4710A318652D5F4E608DD257A /* de.lproj */; };
+		9C35EF9D3E8D51FEF09F09AEE97B4635 /* buttonRoundedDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 7049AD3A80CD896AFF369EAECA56F192 /* buttonRoundedDelete.png */; };
+		A0242CF0FE4CBA42446ECC19419B6620 /* authorize_denied@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EEA91022C2FBE4409B3C2A74BE3043C /* authorize_denied@3x.png */; };
+		A213D8D5305A63E3304935EBB5E7BC66 /* Arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 433EACD744943C32B82A9638A34F0868 /* Arrow@3x.png */; };
+		A4DC6A053094C4A60FCC84313A52688B /* Blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 7278CB87983293347D89E89A4B484ACC /* Blur.png */; };
+		A82E7E95C363836A50EE842C911BCE54 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB3F8A2FB6B4CB0889733268047F87F /* bg.png */; };
+		AE8D66F02A3958F8E8F2C6BAD097DA41 /* Cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D819CD88B1DCA4D217106E043D8B026 /* Cancel@3x.png */; };
+		B474B49BB5CFD5E6C258B996B0FC847A /* Cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD082894F836922B1621067CC8222C79 /* Cancel@2x.png */; };
+		BB9FF87651BAC7FDC6719EF8E7780B3C /* feedbackActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C8233F1364B836E6FFEB4D791C9318 /* feedbackActivity@2x.png */; };
+		C1836B13373FEA8873C95DCA32C08D31 /* IconGradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28CD40A23FF91E329C4728716D495058 /* IconGradient@2x.png */; };
+		C22367563F2D0F7FDD222BE38C985518 /* iconCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D80D9EB5970F0F9D71B5C5F0965BD4 /* iconCamera.png */; };
+		CE1F550301BC25B511C5D9D8C6F68D92 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D74BF91708A4F11C6A4CA4B337EED6BB /* zh-Hans.lproj */; };
+		D150B487AF49A40B7C779C1F5110AC5C /* authorize_denied.png in Resources */ = {isa = PBXBuildFile; fileRef = E4ADF369EEDC4D2A6485D9673CCE412E /* authorize_denied.png */; };
+		D85D0C32D052557AAED9098655219240 /* Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE120F879032503B2F4AF267B7199F1E /* Arrow@2x.png */; };
+		DB28BBD5CFB7C1454E5D3147F5B3EFD9 /* feedbackActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E74C7954BF2637F55384F85CDE973707 /* feedbackActivity@2x~ipad.png */; };
+		DCD8737D8DF3A14F3442F1C3CA835D5C /* feedbackActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BC058B20FCADAA67315A8AE3653F3631 /* feedbackActivity~ipad.png */; };
+		E0C0FB3FF317B9A48DD1EDC06218F9EF /* buttonRoundedDeleteHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0DC8F8468A7D61F71529514AC2BAD0 /* buttonRoundedDeleteHighlighted@2x.png */; };
+		E734D38194FF7C32820D03E55C4C4FE7 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 635FD251F70E28C45DEC01972D742608 /* nl.lproj */; };
+		F46372D08527C9E5B2D9829144388777 /* buttonRoundedRegularHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FDF887687D784219747E0FE7AA1F4A /* buttonRoundedRegularHighlighted.png */; };
+		F640777A57A5A43F6B052F3CB2D1227F /* buttonRoundedDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 805EE0B71D5D452AB0BD1A1033A8B6E0 /* buttonRoundedDelete@2x.png */; };
+		F72DD12B9FD770BD5C61B247C9BB35E6 /* buttonRoundedDeleteHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F7D8BA0E44916C3787C7D8F4F013F6 /* buttonRoundedDeleteHighlighted.png */; };
+		FDB3A9D29603047D2F26DA0DE5285AF1 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C854E8BFEA9B4B1AD554958829A4D7FB /* ru.lproj */; };
+		FEDF6E6EDEC7D17CA8E2E5D478088D09 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CFE5C20435F91E0543A179CBA2CB5254 /* it.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B841AB523B2D70D1D83C5B8360056598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C014F737BF0E4D82F49D1E8DBB98C79;
+			remoteInfo = "HockeySDK-HockeySDKResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D71051FE8503F354355EDD70B245DA /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/ja.lproj"; sourceTree = "<group>"; };
+		0CB3F8A2FB6B4CB0889733268047F87F /* bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bg.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/bg.png"; sourceTree = "<group>"; };
+		0D55C2C7E0A4BA3D6EAE94488A3C78E6 /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hu.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/hu.lproj"; sourceTree = "<group>"; };
+		10FDF887687D784219747E0FE7AA1F4A /* buttonRoundedRegularHighlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonRoundedRegularHighlighted.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png"; sourceTree = "<group>"; };
+		11A379CE9FC9B4775C6655F839DEC29B /* Ok.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Ok.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Ok.png"; sourceTree = "<group>"; };
+		18EE603590241B2DC6C61AF4786EAF36 /* Blur@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Blur@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Blur@3x.png"; sourceTree = "<group>"; };
+		1C48D059E239F7A920493C2A0A839F27 /* Arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Arrow.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Arrow.png"; sourceTree = "<group>"; };
+		27C8233F1364B836E6FFEB4D791C9318 /* feedbackActivity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedbackActivity@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/feedbackActivity@2x.png"; sourceTree = "<group>"; };
+		28CD40A23FF91E329C4728716D495058 /* IconGradient@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "IconGradient@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/IconGradient@2x.png"; sourceTree = "<group>"; };
+		336FF5591DF4D28E73E0DF94DF5CE7DC /* Pods-TestDeployAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestDeployAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		345DA352C0FBD01C82825C7DE36A1264 /* Rectangle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Rectangle@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Rectangle@3x.png"; sourceTree = "<group>"; };
+		398CE94EA93743C77D964884EABDDB89 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/en.lproj"; sourceTree = "<group>"; };
+		3A781D4FFF38FAE8A3ED68530E1500EF /* Rectangle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Rectangle@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Rectangle@2x.png"; sourceTree = "<group>"; };
+		3A8080BEF759DE59E875A706AD1A23B0 /* buttonRoundedRegularHighlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "buttonRoundedRegularHighlighted@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png"; sourceTree = "<group>"; };
+		3B91B3B7D618E2FDEC0653AE48CC9AE0 /* Pods-TestDeployApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestDeployApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E3BD50F6B5997AF68D40F8128FF8558 /* libPods-TestDeployApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDeployApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FABE63A470EB406BCDB0591E4D9C14 /* Pods-TestDeployAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestDeployAppTests-dummy.m"; sourceTree = "<group>"; };
+		433EACD744943C32B82A9638A34F0868 /* Arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Arrow@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Arrow@3x.png"; sourceTree = "<group>"; };
+		43710CE97DE019A14896841889757328 /* authorize_denied@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "authorize_denied@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/authorize_denied@2x.png"; sourceTree = "<group>"; };
+		44764658E538FC8809A5B29A5DD3FBF0 /* libPods-TestDeployAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDeployAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4684046B08D3CC6A178612FC086F75B3 /* Rectangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Rectangle.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Rectangle.png"; sourceTree = "<group>"; };
+		58F7D8BA0E44916C3787C7D8F4F013F6 /* buttonRoundedDeleteHighlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonRoundedDeleteHighlighted.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png"; sourceTree = "<group>"; };
+		5C458E84759202CD46C52B688F46DF19 /* buttonRoundedRegular@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "buttonRoundedRegular@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png"; sourceTree = "<group>"; };
+		5CDA9D152C366134D5BAE09BC04833CF /* iconCamera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "iconCamera@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/iconCamera@2x.png"; sourceTree = "<group>"; };
+		5EA639F9B2CAF363C7F0B51669874683 /* Pods-TestDeployApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestDeployApp-resources.sh"; sourceTree = "<group>"; };
+		5EEA91022C2FBE4409B3C2A74BE3043C /* authorize_denied@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "authorize_denied@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/authorize_denied@3x.png"; sourceTree = "<group>"; };
+		635FD251F70E28C45DEC01972D742608 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/nl.lproj"; sourceTree = "<group>"; };
+		63C173977B4B91732E66847BEB816597 /* Pods-TestDeployAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestDeployAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		646E9CFC4C48615F9CF18D87B8856CB0 /* Pods-TestDeployAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestDeployAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		675DBF3A343051EDBCEA0CC082A19CBB /* Pods-TestDeployAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestDeployAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6909CF1038EBC2F09E80CCB84A2F1E3F /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework"; sourceTree = "<group>"; };
+		69107D87F608B8D317D857430A971B61 /* Pods-TestDeployAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestDeployAppTests-resources.sh"; sourceTree = "<group>"; };
+		7049AD3A80CD896AFF369EAECA56F192 /* buttonRoundedDelete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonRoundedDelete.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png"; sourceTree = "<group>"; };
+		7278CB87983293347D89E89A4B484ACC /* Blur.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Blur.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Blur.png"; sourceTree = "<group>"; };
+		745EF1D29A90E9D4BCA73D5CE8E5672E /* ResourceBundle-HockeySDKResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HockeySDKResources-Info.plist"; sourceTree = "<group>"; };
+		75D80D9EB5970F0F9D71B5C5F0965BD4 /* iconCamera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = iconCamera.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/iconCamera.png"; sourceTree = "<group>"; };
+		7D66982C1DDE85448AE7E43AFEA53ECB /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/pt.lproj"; sourceTree = "<group>"; };
+		805EE0B71D5D452AB0BD1A1033A8B6E0 /* buttonRoundedDelete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "buttonRoundedDelete@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png"; sourceTree = "<group>"; };
+		8212F8DC7C9E3728BB155EEDF3F4132F /* Pods-TestDeployApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestDeployApp-dummy.m"; sourceTree = "<group>"; };
+		8A0DC8F8468A7D61F71529514AC2BAD0 /* buttonRoundedDeleteHighlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "buttonRoundedDeleteHighlighted@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png"; sourceTree = "<group>"; };
+		8D6409A53E60295A72AAB0512851287B /* pt-PT.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-PT.lproj"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/pt-PT.lproj"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B1547DCDF216299444E8BD22518ED4 /* Pods-TestDeployAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestDeployAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95DA580AD5EF0D30E568BCFC24B420C8 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/fr.lproj"; sourceTree = "<group>"; };
+		980A5316F5F596B0F25E71DCB26B2DAF /* hr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hr.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/hr.lproj"; sourceTree = "<group>"; };
+		9A07D1E612D455701A8EDC8F4CF10194 /* IconGradient.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = IconGradient.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/IconGradient.png"; sourceTree = "<group>"; };
+		9D819CD88B1DCA4D217106E043D8B026 /* Cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Cancel@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Cancel@3x.png"; sourceTree = "<group>"; };
+		9E8B52E4154195989F3CE6BBDDC00BCC /* Ok@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ok@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Ok@2x.png"; sourceTree = "<group>"; };
+		ABEF2A56E4DE2857B3C971F44AA1DA18 /* feedbackActivity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedbackActivity@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/feedbackActivity@3x.png"; sourceTree = "<group>"; };
+		AE120F879032503B2F4AF267B7199F1E /* Arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Arrow@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Arrow@2x.png"; sourceTree = "<group>"; };
+		AFA3EEEF8F41D162D5C2AE7A65A99223 /* feedbackActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = feedbackActivity.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/feedbackActivity.png"; sourceTree = "<group>"; };
+		B53A7980F5303668F2D11BEB81CC138E /* Pods-TestDeployApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestDeployApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BC058B20FCADAA67315A8AE3653F3631 /* feedbackActivity~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedbackActivity~ipad.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png"; sourceTree = "<group>"; };
+		BD082894F836922B1621067CC8222C79 /* Cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Cancel@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Cancel@2x.png"; sourceTree = "<group>"; };
+		C2FD25F15E6707B8F468205E1E75FE23 /* buttonRoundedRegular.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonRoundedRegular.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png"; sourceTree = "<group>"; };
+		C854E8BFEA9B4B1AD554958829A4D7FB /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/ru.lproj"; sourceTree = "<group>"; };
+		CC9E14C4710A318652D5F4E608DD257A /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/de.lproj"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFE5C20435F91E0543A179CBA2CB5254 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/it.lproj"; sourceTree = "<group>"; };
+		D1902437AD4E424F9F1043A3AB96D25D /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/es.lproj"; sourceTree = "<group>"; };
+		D3A8C59CFB51BAF4AB57019BD9CC3863 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HockeySDKResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74BF91708A4F11C6A4CA4B337EED6BB /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/zh-Hans.lproj"; sourceTree = "<group>"; };
+		D9D8B118232BA6300C76BBCF7E278F1B /* Blur@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Blur@2x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Blur@2x.png"; sourceTree = "<group>"; };
+		E295DE6340E698B049D1A203F218D0F7 /* Pods-TestDeployApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestDeployApp.release.xcconfig"; sourceTree = "<group>"; };
+		E4ADF369EEDC4D2A6485D9673CCE412E /* authorize_denied.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = authorize_denied.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/authorize_denied.png"; sourceTree = "<group>"; };
+		E58F047E9D810178B8B7A1C7CA6E4791 /* Cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Cancel.png; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Cancel.png"; sourceTree = "<group>"; };
+		E74C7954BF2637F55384F85CDE973707 /* feedbackActivity@2x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "feedbackActivity@2x~ipad.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png"; sourceTree = "<group>"; };
+		E9A7DFEB18E685A4BF73FBF6F80EA2DC /* Ok@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Ok@3x.png"; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework/Versions/A/Resources/HockeySDKResources.bundle/Ok@3x.png"; sourceTree = "<group>"; };
+		E9AF27F4B7708320B33B1A934134627D /* Pods-TestDeployApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestDeployApp-frameworks.sh"; sourceTree = "<group>"; };
+		F111CF18B39D8BBC9AEA3697A2EF93CC /* Pods-TestDeployApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestDeployApp-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310E0B02236D56BCC6C57B7A25D42506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8671C06E950B370C16B3E73CC1E3F16C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C073D061D7BEA6F45F02014B60A0E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B4E2D869F56238AF50BB00B3F643B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D81D36BFD6B9DEE92D5A60AF290DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018ED57993D7D9A8EAB41CC9C596FA1E /* Pods-TestDeployApp */ = {
+			isa = PBXGroup;
+			children = (
+				3B91B3B7D618E2FDEC0653AE48CC9AE0 /* Pods-TestDeployApp-acknowledgements.markdown */,
+				F111CF18B39D8BBC9AEA3697A2EF93CC /* Pods-TestDeployApp-acknowledgements.plist */,
+				8212F8DC7C9E3728BB155EEDF3F4132F /* Pods-TestDeployApp-dummy.m */,
+				E9AF27F4B7708320B33B1A934134627D /* Pods-TestDeployApp-frameworks.sh */,
+				5EA639F9B2CAF363C7F0B51669874683 /* Pods-TestDeployApp-resources.sh */,
+				B53A7980F5303668F2D11BEB81CC138E /* Pods-TestDeployApp.debug.xcconfig */,
+				E295DE6340E698B049D1A203F218D0F7 /* Pods-TestDeployApp.release.xcconfig */,
+			);
+			name = "Pods-TestDeployApp";
+			path = "Target Support Files/Pods-TestDeployApp";
+			sourceTree = "<group>";
+		};
+		18D56422134E6BFD7C2AB0FBC58C9B13 /* Pods-TestDeployAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				93B1547DCDF216299444E8BD22518ED4 /* Pods-TestDeployAppTests-acknowledgements.markdown */,
+				63C173977B4B91732E66847BEB816597 /* Pods-TestDeployAppTests-acknowledgements.plist */,
+				42FABE63A470EB406BCDB0591E4D9C14 /* Pods-TestDeployAppTests-dummy.m */,
+				646E9CFC4C48615F9CF18D87B8856CB0 /* Pods-TestDeployAppTests-frameworks.sh */,
+				69107D87F608B8D317D857430A971B61 /* Pods-TestDeployAppTests-resources.sh */,
+				675DBF3A343051EDBCEA0CC082A19CBB /* Pods-TestDeployAppTests.debug.xcconfig */,
+				336FF5591DF4D28E73E0DF94DF5CE7DC /* Pods-TestDeployAppTests.release.xcconfig */,
+			);
+			name = "Pods-TestDeployAppTests";
+			path = "Target Support Files/Pods-TestDeployAppTests";
+			sourceTree = "<group>";
+		};
+		30ACF2BD6FB5CCD6C9C860E71BC969AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				745EF1D29A90E9D4BCA73D5CE8E5672E /* ResourceBundle-HockeySDKResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HockeySDK";
+			sourceTree = "<group>";
+		};
+		37F65466F8F929917BBB5A4427A888FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8C59CFB51BAF4AB57019BD9CC3863 /* HockeySDKResources.bundle */,
+				3E3BD50F6B5997AF68D40F8128FF8558 /* libPods-TestDeployApp.a */,
+				44764658E538FC8809A5B29A5DD3FBF0 /* libPods-TestDeployAppTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4E766DEFA6EBCE6A206E093A0D51931B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C48D059E239F7A920493C2A0A839F27 /* Arrow.png */,
+				AE120F879032503B2F4AF267B7199F1E /* Arrow@2x.png */,
+				433EACD744943C32B82A9638A34F0868 /* Arrow@3x.png */,
+				E4ADF369EEDC4D2A6485D9673CCE412E /* authorize_denied.png */,
+				43710CE97DE019A14896841889757328 /* authorize_denied@2x.png */,
+				5EEA91022C2FBE4409B3C2A74BE3043C /* authorize_denied@3x.png */,
+				0CB3F8A2FB6B4CB0889733268047F87F /* bg.png */,
+				7278CB87983293347D89E89A4B484ACC /* Blur.png */,
+				D9D8B118232BA6300C76BBCF7E278F1B /* Blur@2x.png */,
+				18EE603590241B2DC6C61AF4786EAF36 /* Blur@3x.png */,
+				7049AD3A80CD896AFF369EAECA56F192 /* buttonRoundedDelete.png */,
+				805EE0B71D5D452AB0BD1A1033A8B6E0 /* buttonRoundedDelete@2x.png */,
+				58F7D8BA0E44916C3787C7D8F4F013F6 /* buttonRoundedDeleteHighlighted.png */,
+				8A0DC8F8468A7D61F71529514AC2BAD0 /* buttonRoundedDeleteHighlighted@2x.png */,
+				C2FD25F15E6707B8F468205E1E75FE23 /* buttonRoundedRegular.png */,
+				5C458E84759202CD46C52B688F46DF19 /* buttonRoundedRegular@2x.png */,
+				10FDF887687D784219747E0FE7AA1F4A /* buttonRoundedRegularHighlighted.png */,
+				3A8080BEF759DE59E875A706AD1A23B0 /* buttonRoundedRegularHighlighted@2x.png */,
+				E58F047E9D810178B8B7A1C7CA6E4791 /* Cancel.png */,
+				BD082894F836922B1621067CC8222C79 /* Cancel@2x.png */,
+				9D819CD88B1DCA4D217106E043D8B026 /* Cancel@3x.png */,
+				CC9E14C4710A318652D5F4E608DD257A /* de.lproj */,
+				398CE94EA93743C77D964884EABDDB89 /* en.lproj */,
+				D1902437AD4E424F9F1043A3AB96D25D /* es.lproj */,
+				AFA3EEEF8F41D162D5C2AE7A65A99223 /* feedbackActivity.png */,
+				27C8233F1364B836E6FFEB4D791C9318 /* feedbackActivity@2x.png */,
+				E74C7954BF2637F55384F85CDE973707 /* feedbackActivity@2x~ipad.png */,
+				ABEF2A56E4DE2857B3C971F44AA1DA18 /* feedbackActivity@3x.png */,
+				BC058B20FCADAA67315A8AE3653F3631 /* feedbackActivity~ipad.png */,
+				95DA580AD5EF0D30E568BCFC24B420C8 /* fr.lproj */,
+				980A5316F5F596B0F25E71DCB26B2DAF /* hr.lproj */,
+				0D55C2C7E0A4BA3D6EAE94488A3C78E6 /* hu.lproj */,
+				75D80D9EB5970F0F9D71B5C5F0965BD4 /* iconCamera.png */,
+				5CDA9D152C366134D5BAE09BC04833CF /* iconCamera@2x.png */,
+				9A07D1E612D455701A8EDC8F4CF10194 /* IconGradient.png */,
+				28CD40A23FF91E329C4728716D495058 /* IconGradient@2x.png */,
+				CFE5C20435F91E0543A179CBA2CB5254 /* it.lproj */,
+				02D71051FE8503F354355EDD70B245DA /* ja.lproj */,
+				635FD251F70E28C45DEC01972D742608 /* nl.lproj */,
+				11A379CE9FC9B4775C6655F839DEC29B /* Ok.png */,
+				9E8B52E4154195989F3CE6BBDDC00BCC /* Ok@2x.png */,
+				E9A7DFEB18E685A4BF73FBF6F80EA2DC /* Ok@3x.png */,
+				7D66982C1DDE85448AE7E43AFEA53ECB /* pt.lproj */,
+				8D6409A53E60295A72AAB0512851287B /* pt-PT.lproj */,
+				4684046B08D3CC6A178612FC086F75B3 /* Rectangle.png */,
+				3A781D4FFF38FAE8A3ED68530E1500EF /* Rectangle@2x.png */,
+				345DA352C0FBD01C82825C7DE36A1264 /* Rectangle@3x.png */,
+				C854E8BFEA9B4B1AD554958829A4D7FB /* ru.lproj */,
+				D74BF91708A4F11C6A4CA4B337EED6BB /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EC4CB44E075E7F0F33D6C84131440F2A /* Pods */,
+				37F65466F8F929917BBB5A4427A888FF /* Products */,
+				EEF047CEEC97F4DA66ECAD080BDD6EA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA1BBE44AC65B962249823D797E37F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6909CF1038EBC2F09E80CCB84A2F1E3F /* HockeySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99162B9FD2370262679E82D0D4B65901 /* HockeySDK */ = {
+			isa = PBXGroup;
+			children = (
+				A3C24DDDF4DE491FF39F14BF52F03D56 /* AllFeaturesLib */,
+				30ACF2BD6FB5CCD6C9C860E71BC969AC /* Support Files */,
+			);
+			path = HockeySDK;
+			sourceTree = "<group>";
+		};
+		A3C24DDDF4DE491FF39F14BF52F03D56 /* AllFeaturesLib */ = {
+			isa = PBXGroup;
+			children = (
+				7EA1BBE44AC65B962249823D797E37F2 /* Frameworks */,
+				4E766DEFA6EBCE6A206E093A0D51931B /* Resources */,
+			);
+			name = AllFeaturesLib;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4CB44E075E7F0F33D6C84131440F2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99162B9FD2370262679E82D0D4B65901 /* HockeySDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEF047CEEC97F4DA66ECAD080BDD6EA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				018ED57993D7D9A8EAB41CC9C596FA1E /* Pods-TestDeployApp */,
+				18D56422134E6BFD7C2AB0FBC58C9B13 /* Pods-TestDeployAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FA1C266317590AC2DCFAAB0C3AD01B /* Pods-TestDeployApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9F5163EE72128088664FBF5EC1B1A2 /* Build configuration list for PBXNativeTarget "Pods-TestDeployApp" */;
+			buildPhases = (
+				D95DC25B8733BFF68AAA621978EFA4A3 /* Sources */,
+				310E0B02236D56BCC6C57B7A25D42506 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5CB2C033C3F7DA19A6CD1E2D05A91A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestDeployApp";
+			productName = "Pods-TestDeployApp";
+			productReference = 3E3BD50F6B5997AF68D40F8128FF8558 /* libPods-TestDeployApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1FFFD5DA80135761EAC36C992CFA1BA0 /* Pods-TestDeployAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89186C8DD925EC93D0205E2D5FB60081 /* Build configuration list for PBXNativeTarget "Pods-TestDeployAppTests" */;
+			buildPhases = (
+				6A4B73A4981A99D4625AB69F6DA662C8 /* Sources */,
+				3C073D061D7BEA6F45F02014B60A0E56 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TestDeployAppTests";
+			productName = "Pods-TestDeployAppTests";
+			productReference = 44764658E538FC8809A5B29A5DD3FBF0 /* libPods-TestDeployAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C014F737BF0E4D82F49D1E8DBB98C79 /* HockeySDK-HockeySDKResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2A43A27B3D62A3BD4388B91C909AE5 /* Build configuration list for PBXNativeTarget "HockeySDK-HockeySDKResources" */;
+			buildPhases = (
+				12ED99C14D43EBE6496C8574C02B147D /* Sources */,
+				94D81D36BFD6B9DEE92D5A60AF290DB7 /* Frameworks */,
+				A510653F52BE12202CC218C408B334AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HockeySDK-HockeySDKResources";
+			productName = "HockeySDK-HockeySDKResources";
+			productReference = D3A8C59CFB51BAF4AB57019BD9CC3863 /* HockeySDKResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 37F65466F8F929917BBB5A4427A888FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C014F737BF0E4D82F49D1E8DBB98C79 /* HockeySDK-HockeySDKResources */,
+				11FA1C266317590AC2DCFAAB0C3AD01B /* Pods-TestDeployApp */,
+				1FFFD5DA80135761EAC36C992CFA1BA0 /* Pods-TestDeployAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A510653F52BE12202CC218C408B334AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5760BD3BAD665071AE5A87E39C4D434F /* Arrow.png in Resources */,
+				D85D0C32D052557AAED9098655219240 /* Arrow@2x.png in Resources */,
+				A213D8D5305A63E3304935EBB5E7BC66 /* Arrow@3x.png in Resources */,
+				D150B487AF49A40B7C779C1F5110AC5C /* authorize_denied.png in Resources */,
+				26035D03DD35459CE5EC042B76947A9C /* authorize_denied@2x.png in Resources */,
+				A0242CF0FE4CBA42446ECC19419B6620 /* authorize_denied@3x.png in Resources */,
+				A82E7E95C363836A50EE842C911BCE54 /* bg.png in Resources */,
+				A4DC6A053094C4A60FCC84313A52688B /* Blur.png in Resources */,
+				85FF21BD92EEA12FABF49B5FB6166994 /* Blur@2x.png in Resources */,
+				98A0252E126739B2C842686F7F9B17F1 /* Blur@3x.png in Resources */,
+				9C35EF9D3E8D51FEF09F09AEE97B4635 /* buttonRoundedDelete.png in Resources */,
+				F640777A57A5A43F6B052F3CB2D1227F /* buttonRoundedDelete@2x.png in Resources */,
+				F72DD12B9FD770BD5C61B247C9BB35E6 /* buttonRoundedDeleteHighlighted.png in Resources */,
+				E0C0FB3FF317B9A48DD1EDC06218F9EF /* buttonRoundedDeleteHighlighted@2x.png in Resources */,
+				2DCDFB8DE25721AEF30490982AD3DD42 /* buttonRoundedRegular.png in Resources */,
+				8AE6C60F51AF9DEDFD73B95200C94D4B /* buttonRoundedRegular@2x.png in Resources */,
+				F46372D08527C9E5B2D9829144388777 /* buttonRoundedRegularHighlighted.png in Resources */,
+				63645274736672804EC7714131E97457 /* buttonRoundedRegularHighlighted@2x.png in Resources */,
+				16123269223B014A45DF85A400D846F9 /* Cancel.png in Resources */,
+				B474B49BB5CFD5E6C258B996B0FC847A /* Cancel@2x.png in Resources */,
+				AE8D66F02A3958F8E8F2C6BAD097DA41 /* Cancel@3x.png in Resources */,
+				9B45C853EE8CFFC1B24721A6D58ECAE8 /* de.lproj in Resources */,
+				4534CD22129787E011DB2FD9E8021DEC /* en.lproj in Resources */,
+				0A02F4EB0DBBC92B221459C91C2E368E /* es.lproj in Resources */,
+				1CD43A7A40813BD66639A86BC34ECBB5 /* feedbackActivity.png in Resources */,
+				BB9FF87651BAC7FDC6719EF8E7780B3C /* feedbackActivity@2x.png in Resources */,
+				DB28BBD5CFB7C1454E5D3147F5B3EFD9 /* feedbackActivity@2x~ipad.png in Resources */,
+				02E304FDF6B4E2BEE98B1CB376B1C499 /* feedbackActivity@3x.png in Resources */,
+				DCD8737D8DF3A14F3442F1C3CA835D5C /* feedbackActivity~ipad.png in Resources */,
+				8ED0654955869D7CD0501B5220685FF8 /* fr.lproj in Resources */,
+				7CFB3ADE367D2692775C304F8709CCC2 /* hr.lproj in Resources */,
+				48824B3684D2DCB8076D47C04F09D832 /* hu.lproj in Resources */,
+				C22367563F2D0F7FDD222BE38C985518 /* iconCamera.png in Resources */,
+				0BB42B52BB3CFAB9691D32A88715AF8A /* iconCamera@2x.png in Resources */,
+				99F243DB52C2CBE3BB823A1D5146B119 /* IconGradient.png in Resources */,
+				C1836B13373FEA8873C95DCA32C08D31 /* IconGradient@2x.png in Resources */,
+				FEDF6E6EDEC7D17CA8E2E5D478088D09 /* it.lproj in Resources */,
+				280DA857779FC1D5A702C2B980A8E725 /* ja.lproj in Resources */,
+				E734D38194FF7C32820D03E55C4C4FE7 /* nl.lproj in Resources */,
+				495430AB5D7B4CF306379A6CA860741D /* Ok.png in Resources */,
+				74B3B310C2671D132AF6E0A9E01BEA12 /* Ok@2x.png in Resources */,
+				98A50D63C57EF1721AB05F78E35471F3 /* Ok@3x.png in Resources */,
+				77C3E84E939AB3190902B0B7681E1004 /* pt-PT.lproj in Resources */,
+				776EACDC46D04A74BE8D52C2E82C15D5 /* pt.lproj in Resources */,
+				91B611F8E5BB709FBE11A2D05598665C /* Rectangle.png in Resources */,
+				10C02C1DF5EB1C46F47C934647FE160D /* Rectangle@2x.png in Resources */,
+				6F17E89B8BBC7D1290534E82A81E5212 /* Rectangle@3x.png in Resources */,
+				FDB3A9D29603047D2F26DA0DE5285AF1 /* ru.lproj in Resources */,
+				CE1F550301BC25B511C5D9D8C6F68D92 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12ED99C14D43EBE6496C8574C02B147D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4B73A4981A99D4625AB69F6DA662C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495B48D48381E16798D0452B41EB8354 /* Pods-TestDeployAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95DC25B8733BFF68AAA621978EFA4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C36B05536BFF389ACABAF7AE815E255 /* Pods-TestDeployApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5CB2C033C3F7DA19A6CD1E2D05A91A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HockeySDK-HockeySDKResources";
+			target = 3C014F737BF0E4D82F49D1E8DBB98C79 /* HockeySDK-HockeySDKResources */;
+			targetProxy = B841AB523B2D70D1D83C5B8360056598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		010B49AA52197EAC0C87D22A3A27FF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336FF5591DF4D28E73E0DF94DF5CE7DC /* Pods-TestDeployAppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		020ABEFA4E953F719B992B7666CED20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53A7980F5303668F2D11BEB81CC138E /* Pods-TestDeployApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		57FCDC26BB19A14B883BD1DAA05727D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HockeySDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HockeySDK/ResourceBundle-HockeySDKResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = HockeySDKResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7023FAD5BE704F225B6D2D113BA936EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E295DE6340E698B049D1A203F218D0F7 /* Pods-TestDeployApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8A23B408E91BDEE4C3BA1C6CAE10AEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HockeySDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HockeySDK/ResourceBundle-HockeySDKResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = HockeySDKResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8CF55B4330D2BA0D892627761F90CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675DBF3A343051EDBCEA0CC082A19CBB /* Pods-TestDeployAppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2A43A27B3D62A3BD4388B91C909AE5 /* Build configuration list for PBXNativeTarget "HockeySDK-HockeySDKResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FCDC26BB19A14B883BD1DAA05727D1 /* Debug */,
+				8A23B408E91BDEE4C3BA1C6CAE10AEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9F5163EE72128088664FBF5EC1B1A2 /* Build configuration list for PBXNativeTarget "Pods-TestDeployApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020ABEFA4E953F719B992B7666CED20E /* Debug */,
+				7023FAD5BE704F225B6D2D113BA936EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89186C8DD925EC93D0205E2D5FB60081 /* Build configuration list for PBXNativeTarget "Pods-TestDeployAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8CF55B4330D2BA0D892627761F90CF /* Debug */,
+				010B49AA52197EAC0C87D22A3A27FF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

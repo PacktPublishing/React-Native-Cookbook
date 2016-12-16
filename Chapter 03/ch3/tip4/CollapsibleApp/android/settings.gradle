@@ -1,0 +1,3 @@
+rootProject.name = 'CollapsibleApp'
+
+include ':app'

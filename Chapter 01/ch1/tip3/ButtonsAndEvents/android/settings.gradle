@@ -1,0 +1,3 @@
+rootProject.name = 'ButtonsAndEvents'
+
+include ':app'

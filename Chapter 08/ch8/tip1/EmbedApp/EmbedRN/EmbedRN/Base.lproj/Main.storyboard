@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iwb-fL-QYz">
+                                <frame key="frameInset" minX="196" minY="50" width="209" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yav-gK-a0O">
+                                        <state key="normal" title="Open React Native Application"/>
+                                        <connections>
+                                            <action selector="openRNAppButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="175-BR-75e"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI7-Vm-YPI">
+                                        <state key="normal" title="Open React Native App Inside"/>
+                                        <connections>
+                                            <action selector="openRNAppEmbeddedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gyb-XP-czZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="f8V-jL-PX2">
+                                <subviews>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gfv-Sc-Om3">
+                                        <connections>
+                                            <segue destination="UT1-aI-Ag3" kind="embed" identifier="embed" id="qfM-oo-LQK"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iwb-fL-QYz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="8IT-gj-wYg"/>
+                            <constraint firstItem="iwb-fL-QYz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FWD-5x-qSR"/>
+                            <constraint firstItem="f8V-jL-PX2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SXR-WG-agh"/>
+                            <constraint firstItem="f8V-jL-PX2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jam-UO-Jze"/>
+                            <constraint firstItem="f8V-jL-PX2" firstAttribute="top" secondItem="iwb-fL-QYz" secondAttribute="bottom" constant="88" id="qVO-be-pDv"/>
+                            <constraint firstItem="f8V-jL-PX2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="y3T-O6-krG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="459" y="357"/>
+        </scene>
+        <!--Embed View Controller-->
+        <scene sceneID="uqS-SA-ttD">
+            <objects>
+                <viewController id="UT1-aI-Ag3" customClass="EmbedViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qaP-HZ-T3T"/>
+                        <viewControllerLayoutGuide type="bottom" id="dtJ-WL-0Qk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lBU-XV-eB7">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="270"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Y7-qC-Mfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="761" y="965"/>
+        </scene>
+    </scenes>
+</document>
